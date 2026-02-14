@@ -22,6 +22,11 @@
   --trans: 180ms ease;
 }
 
+/*.background {
+  background: url("https://t4.ftcdn.net/jpg/00/64/76/65/360_F_64766580_X82LBtNKD8Xq4qY1habebBvOnqUHwQ4K.jpg") no-repeat center center fixed;
+  background-size: cover;
+}*/
+
 html[data-theme="dark"] {
   --bg: #0b0d12;
   --text: #f3f4f6;
@@ -97,18 +102,18 @@ body {
 
 .brand__name {
   font-weight: 800;
-  font-size: 22px;
+  font-size: 52px;
   letter-spacing: -0.02em;
 }
 .brand__role {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
   margin-top: 2px;
 }
 .brand__tagline {
   margin-top: 2px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .nav {
@@ -150,18 +155,20 @@ html[data-theme="dark"] .nav__link:hover {
 
 .hero__image {
   width: 100%;
-  height: auto;
+  height: 420px;        
+  object-fit: cover;    
   border-radius: var(--radius-lg);
   display: block;
   box-shadow: var(--shadow);
 }
 
-.accent-line {
+
+/*.accent-line {
   height: 4px;
   background: var(--blue);
   border-radius: 999px;
   margin-top: 6px;
-}
+}*/
 
 /*Botones*/
 .btn {
